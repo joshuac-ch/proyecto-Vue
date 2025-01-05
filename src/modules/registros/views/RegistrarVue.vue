@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Bienvenido a Registro de personas</h1>
+    <h1>Registro de personas validar con vee-validate</h1>
     <div>
       <Form :validation-schema="validar" @submit="envio" >
         <div>
